@@ -1,5 +1,6 @@
 import React, { useEffect, Suspense, lazy } from 'react';
 import Lenis from 'lenis';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import CustomCursor from './components/CustomCursor';
@@ -79,6 +80,8 @@ function App() {
           <FooterCTA />
         </Suspense>
       </div>
+
+      <SpeedInsights />
     </div>
   );
 }
