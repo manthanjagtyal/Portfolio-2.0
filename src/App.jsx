@@ -48,7 +48,7 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-[#111111] text-[#ffffff] font-sans selection:bg-[#fb4617] selection:text-white relative">
+    <div className="min-h-screen w-full max-w-[100vw] overflow-x-hidden bg-[#111111] text-[#ffffff] font-sans selection:bg-[#fb4617] selection:text-white relative">
       {/* Aurora Background Effect - Removed mix-blend-screen and added will-change for performance */}
       <div className="fixed inset-0 z-0 pointer-events-none opacity-30" style={{ willChange: 'transform', transform: 'translateZ(0)' }}>
         <Aurora 

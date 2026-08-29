@@ -7,6 +7,20 @@
     background-color: #111111;
     color: #ffffff;
     font-family: 'Inter', sans-serif;
+    width: 100%;
+    min-width: 1024px;
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Guarantee the React root fills the space and doesn't leave gaps */
+  #root {
+    width: 100%;
+    min-width: 1024px;
+    max-width: 100%;
+    overflow-x: hidden;
   }
 }
 
